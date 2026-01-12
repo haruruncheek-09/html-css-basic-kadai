@@ -4,8 +4,6 @@ h1, p, body {
 p, a {
   font-size: 20px;
 }
-
-
 header {
   margin-bottom: 20px;
   background-color: rgb(244, 79, 79);
@@ -60,7 +58,15 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  h2 {
+  font-size: 30px;
+  }
+  p {
+  font-size: 25px;
+  }
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
